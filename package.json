@@ -13,15 +13,15 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/AndrejGajdos/webpack-react.git"
+    "url": "git+https://github.com/mullerfs/react-webpack.git"
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/AndrejGajdos/webpack-react/issues"
+    "url": "https://github.com/mullerfs/react-webpack/issues"
   },
-  "homepage": "https://github.com/AndrejGajdos/webpack-react#readme",
+  "homepage": "https://github.com/mullerfs/react-webpack",
   "devDependencies": {
     "@babel/core": "^7.13.14",
     "@babel/preset-env": "^7.13.12",
@@ -29,7 +29,10 @@
     "@webpack-cli/generators": "^2.0.0",
     "autoprefixer": "^10.2.5",
     "babel-loader": "^8.2.2",
+    "babel-plugin-syntax-dynamic-import": "^6.18.0",
+    "babel-preset-react": "^6.24.1",
     "css-loader": "^5.2.0",
+    "file-loader": "^6.2.0",
     "html-webpack-plugin": "^5.3.1",
     "npm-install-webpack-plugin": "^4.0.5",
     "postcss": "^8.2.9",
@@ -37,6 +40,7 @@
     "sass": "^1.32.8",
     "sass-loader": "^11.0.1",
     "style-loader": "^2.0.0",
+    "url-loader": "^4.1.1",
     "webpack": "^5.30.0",
     "webpack-cli": "^4.6.0",
     "webpack-dev-server": "^3.11.2"
